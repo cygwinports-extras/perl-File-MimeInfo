@@ -1,0 +1,16 @@
+CPAN_AUTHOR=pardus
+inherit perl
+
+NAME="perl-File-MimeInfo"
+VERSION=0.15
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for determining mime types using shared-mime-info"
+DESCRIPTION="This module can be used to determine the mime type of a file;
+it's a replacement for File-MMagic trying to implement the freedesktop
+specification for using the shared mime-info database. The package comes
+with a script called 'mimetype' that can be used as a file(1)
+work-alike."
+SRC_URI="${SRC_URI%/*}/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+
+REQUIRES="shared-mime-info"

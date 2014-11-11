@@ -1,4 +1,0 @@
-CPAN_AUTHOR=pardus
-inherit perl
-
-SRC_URI="${SRC_URI%/*}/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
