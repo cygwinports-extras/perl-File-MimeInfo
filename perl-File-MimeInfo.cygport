@@ -2,7 +2,7 @@ CPAN_AUTHOR=michielb
 inherit perl
 
 NAME="perl-File-MimeInfo"
-VERSION=0.26
+VERSION=0.27
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl module for determining mime types using shared-mime-info"
